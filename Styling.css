@@ -1,0 +1,60 @@
+html,
+body {
+        margin: 0;
+        padding: 0;
+      }
+#title {
+        background-color: rgb(197, 241, 234);
+        text-align: center;
+        font-size: 40px;
+        color: darkgreen;
+        font-family: "Times New Roman", Times, serif;
+        padding: 10px;
+        margin: 0;
+      }
+#poster {
+        height: 300px;
+        width: 300px;
+        border: 1px black solid;
+        border-radius: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+      }
+#intro{
+    font-size: 25px;
+    line-height: 38px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.left{
+    width:50%;
+    display: flex;
+    align-items: center;
+}
+#img2{
+    height: 300px;
+    padding: 15px;
+}
+.container{
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    display: flex;
+    justify-content: center;
+}
+#left-para{
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+    padding: 15px;
+}
+#bg-img{
+    height:200px;
+    width:200px;
+    background-image: url("./image/Jurassic\ park\ image.jpeg");
+    background-position: center;
+    background-size:cover;
+    color:white;
+    font-size:30px;
+}
